@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.device {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  transition: box-shadow 0.3s;
+}
+
+.device:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button.on {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button.off {
+  background-color: #f44336;
+  color: white;
+}
+
+.button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button.inactive {
+  background-color: #f44336;
+  color: white;
+}
